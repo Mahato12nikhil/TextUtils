@@ -17,7 +17,7 @@ function App() {
         <NavBar title="textUtils" />
         <Routes>
           <Route exact path="/about"element={<AboutUs/>}/>
-          <Route  exact path="/"element={<TextForm heading="Enter the text to analyze" />}/>
+          <Route  exact path="/"element={<TextForm heading="Enter the text to analyze of era" />}/>
           
         </Routes>
       </Router>
